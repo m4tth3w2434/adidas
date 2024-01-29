@@ -38,6 +38,19 @@ ol {
   border-collapse: collapse;
   margin: 0 auto;
 }
+.img-product {
+  width: 100%;
+  max-width: 200px;
+}
+
+.product-image-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
 .size-table th, .size-table td {
   border: 1px solid #000;
   padding: 8px;
@@ -339,6 +352,9 @@ ol {
 }
 
 @media (min-width: 700px) {
+  .img-product {
+    width: 200px;
+  }
   .help-nav {
     display: flex;
     justify-content: flex-end;
