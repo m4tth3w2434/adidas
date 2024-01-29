@@ -19,5 +19,6 @@ routerBack.addEventListener('click', () => {
 for (let i = 0; i < heratIcon.length; i++) {
     heratIcon[i].addEventListener('click', () => {
         heratIcon[i].classList.toggle('heart2-button--active');
+        console.log(heratIcon[i]);
     });
 }

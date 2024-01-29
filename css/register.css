@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+    background: url(../assets/images/Masthead_dual_0bbf852c08.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.register-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+}
+
+.register-form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.register-form button {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: gray;
+}
+
+@media (max-width: 600px) {
+    .register-container {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .register-form input, .register-form button {
+        width: 90%;
+    }
+}
